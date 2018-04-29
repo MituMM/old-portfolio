@@ -1,0 +1,139 @@
+*{
+    margin: 0;padding: 0;list-style: none;
+}
+.slide img{
+    opacity: 0.7;
+}
+body,html{
+    height: 100%;
+}
+body{
+    font-family: 'Open', sans-serif;
+    font-weight: 300;
+}
+h4{
+    margin-top: 10px
+}
+.header-area,.slider-area,.slider{
+    height:100%;
+    position: relative;
+}
+.navigation-area{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 999;
+  
+}
+a:hover{
+    text-decoration: none
+}
+.navigation-area:before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #feb501;
+  opacity: 0.8;
+}
+.slider-area{
+  
+    overflow: hidden
+}
+.slider .owl-controls{
+    position: absolute;
+    left: 15%;
+    bottom: 250px;
+    width: 100%;
+    
+}
+.slider .owl-controls .owl-nav div{
+    background-color: #01605c;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-table;
+     font-size: 35px;
+    color: #fff;
+    margin-right:15px;
+}
+.slider .owl-controls .owl-nav div i{
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+.title-area{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top:10%;
+   z-index: 9999;
+}
+.title-area h1 {
+  font-family: "Oswald",sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  padding-right: 100px;
+  position: relative;
+    margin-bottom: 100px;
+}
+.title-area h1:after{
+    content: "";
+    height: 6px;
+    width: 80%;
+    background-color: #feb501;
+    position: absolute;
+    bottom: 0px;left: 0px;
+    top:100%
+}
+.main-menu{text-align: center}
+.main-menu ul#nav{}
+.main-menu ul#nav li{
+    display: inline-block
+}
+.main-menu ul#nav li a{
+    display: block;
+    padding: 25px;
+    font-size: 20px;
+     text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.main-menu ul#nav li a:hover{
+    color: #01605c;
+}
+.best-pro text-center p{
+   margin-bottom: 10px;
+    margin-top: 0px;
+    
+}
+.food-area{
+    
+}
+.single-food{
+  background: #ddd;  
+    height: 200px;
+   
+}
+.single-food img{
+    float: left;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.single-food h4{
+    margin-top: 10px;
+}
+.single-food p{
+ margin-right: 10px; 
+    display:table-row;
+         padding: 10px;
+}
+.footer-area{
+    background:#feb501; 
+    padding: 25px;
+
+}
